@@ -1,0 +1,22 @@
+{
+  "name": "piano-bot",
+  "version": "1.0.0",
+  "description": "Piano bot",
+  "main": "blink-led.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altereagle/piano-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altereagle/piano-bot/issues"
+  },
+  "homepage": "https://github.com/altereagle/piano-bot#readme",
+  "dependencies": {
+    "johnny-five": "^0.9.19"
+  }
+}
