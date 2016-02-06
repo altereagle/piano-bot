@@ -6,6 +6,6 @@ board.on("ready", function() {
   var sensor = new five.Sensor.Digital(2);
 
   sensor.on("change", function() {
-    console.log(this.value);
+    console.log("digital sensor value>>>", this.value);
   });
 });
