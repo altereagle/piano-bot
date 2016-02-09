@@ -7,6 +7,7 @@ board.on("ready", function() {
   var ledTwo   = new five.Led(11);
   var ledThree = new five.Led(13);
 
+  // HOLD
   button.on("hold", function() {
     ledOne.blink(1000);
     ledTwo.blink(800);
@@ -20,13 +21,15 @@ board.on("ready", function() {
     }, 3000)
   });
 
+  // PRESS
   button.on("press", function() {
     ledOne.on();
     ledTwo.on();
     ledThree.on();
-    console.log( "Leds are on!" );
+    console.log("Leds are on!");
   });
 
+  // RELEASE
   button.on("release", function() {
     ledOne.off();
     ledTwo.off();
